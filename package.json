@@ -1,6 +1,6 @@
 {
   "name": "something-guide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Rec0-bot plugin guides about something.",
   "filter_prefixes": [
     "info"
