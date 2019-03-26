@@ -42,7 +42,7 @@ export const onMessage = async (message: string, context: MessageContext, data: 
 };
 
 export const onPluginEvent = async (eventName: string, value?: any, fromId?: string) => {
-    if (eventName === 'periodic-guide') {
+    if (eventName === 'scheduled:periodic-guide') {
         await mBot.sendTalk(await mBot.getChannelId(process.env.REC0_ENV_PERIODIC_GUIDE_CHANNEL || 'random'), periodicGuideText);
     }
 };
