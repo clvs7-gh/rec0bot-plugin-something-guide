@@ -11,7 +11,7 @@ If you want to clean up built files, run `npm run clean`.
 - `REC0_ENV_PERIODIC_GUIDE_CHANNEL` : A channel name which rec0bot posts guide text periodically.
 
 ## Author
-clvs7 (Arisaka Mashiro)
+clvs7 (Arisaka Mayuki)
 
 ## License
 Apache License 2.0
